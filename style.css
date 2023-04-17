@@ -1,0 +1,75 @@
+body{
+    background-color: #FF69B4;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    background-image: url(./allimages/oip1.jpg);
+}
+
+.card-text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-red{
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-green{
+    color: green;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-blue{
+    color: blue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-title{
+    color: white;
+    font-family: cursive;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #FF69B4;
+}
+
+.inp{
+    display: flex;
+    margin: 0 auto;
+}
+
+.hide{
+    display: none;
+}
+
+.box:hover input{
+    width: 400px;
+    
+}
+
+.box input{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 70px;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    transition: 0.8s;
+    /* background: transparent; */
+    /* opacity: 0.5; */
+    border-radius: 30px;
+}
+
